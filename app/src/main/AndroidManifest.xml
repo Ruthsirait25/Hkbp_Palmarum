@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logohkbp"
+        android:label="@string/hkbp"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HKBPTarutung"
+        tools:targetApi="31">
+        <activity
+            android:name=".WartaJemaat"
+            android:exported="false" />
+        <activity
+            android:name=".AcaraMinggu"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryPage"
+            android:exported="false" />
+        <activity
+            android:name=".registrasi.RegistrasiPage"
+            android:exported="false" />
+        <activity
+            android:name=".NotifikasiPage"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".PendaftaranAkun"
+            android:exported="false" />
+        <activity
+            android:name=".LupaPassword"
+            android:exported="false" />
+        <activity
+            android:name=".home.HomeTamu"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPage"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".home.HomeJemaat"
+            android:exported="true" />
+        <activity android:name="com.example.hkbptarutung.registrasi.RegistrasiLandingPage" />
+        <activity android:name="com.example.hkbptarutung.home.HomeAdmin" />
+        <activity android:name="com.example.hkbptarutung.registrasi.ActivityApprovalRegistrasi" />
+        <activity android:name="com.example.hkbptarutung.home.HomeAdminNew" />
+        <service
+            android:name=".utils.PushNotification"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notification" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/teal_200" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/registrasi" />
+    </application>
+</manifest>

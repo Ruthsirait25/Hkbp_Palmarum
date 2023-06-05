@@ -1,0 +1,121 @@
+<resources>
+    <!--  general  -->
+    <string name="hkbp">HKBP Palmarum</string>
+    <string name="contenDescription">ContentDescription</string>
+    <string name="id_jemaat">Id Jemaat</string>
+    <string name="nama_ayah">Nama Ayah</string>
+    <string name="nama_ibu">Nama Ibu</string>
+    <string name="Nama_Lengkap">Nama Lengkap</string>
+    <string name="Tempat_Lahir">Tempat Lahir</string>
+    <string name="Tanggal_Lahir">Tanggal Lahir</string>
+    <string name="jenisKelamin">Jenis kelamin</string>
+    <string name="tanggal_baptis">Tanggal Baptis</string>
+    <string name="tanggal_sidi">Tanggal Sidi</string>
+    <string name="nama_laki_laki">Nama Laki-Laki</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="logout">Log out</string>
+    <string name="admin">Admin</string>
+    <string name="tamu">Tamu</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="alamat">Alamat</string>
+    <string name="nomorHp">Nomor Hp</string>
+
+    <!--  Spesifik  -->
+    <string name="belumPunyaAkun">Belum punya akun?</string>
+    <string name="sudahPunyaAkun">Sudah punya akun?</string>
+    <string name="daftar">Daftar</string>
+
+    <string name="lupaPassword">Lupa Password?</string>
+    <string name="gantiPassword">Ganti password</string>
+    <string name="passwordBaru">Password Baru</string>
+    <string name="ulangiPassword">Ulangi password</string>
+
+    <string name="batal">Batal</string>
+    <string name="selanjutnya">Selanjutnya</string>
+    <string name="kembali">Kembali</string>
+    <string name="ubah">Ubah</string>
+
+    <string name="sejarah">Sejarah</string>
+    <string name="acaraMinggu">Acara minggu</string>
+    <string name="wartaJemaat">Warta jemaat</string>
+    <string name="registrasi">Registrasi</string>
+    <string name="kegiatan">Kegiatan</string>
+
+
+    <string name="pendaftaranAkun">Pendaftaran Akun</string>
+    <string name="registrasiKegiatan">Registrasi Kegiatan</string>
+    <string name="profile">Profile</string>
+    <string name="SejarahHKBP">Sejarah HKBP Palmarum</string>
+
+    <string name="selamatDatang">Selamat datang di aplikasi HKBP Palmarum</string>
+    <string name="sejarahHKBPLong">HKBP palmarum merupakan hkbp resosrt yang beralamat di Stadion Tarutung, Hutatoruan VI, Kec. Tarutung, Kabupaten Tapanuli Utara, Sumatera Utara. HKBP Palmarum berdiri pada 20 juni 1999 dan diresmikan pada 24 April 2018. Saat ini pelayan yang menjabat di HKBP tarutung adalah Pdt. Martin Gultom, S.di dan C. Pdt Astuti Telaumbanua, S.Th dan terdapat 8 penatua yang memiliki jabatan di 8 pembagian wilayah HKBP Palmarum Pertahun 2022 tercatat sebanyak 142 kepala keluarga jemaat di HKBP Palmarum dimana sebanyak 60% jemaat berasal dari luar tarutung. HKBP palmarum merupakan hkbp resosrt yang beralamat di Stadion Tarutung, Hutatoruan VI, Kec. Tarutung, Kabupaten Tapanuli Utara, Sumatera Utara. HKBP Palmarum berdiri pada 20 juni 1999 dan diresmikan pada 24 April 2018.</string>
+    <string name="topikMinggu">Topik Minggu: Reminiscere</string>
+    <string name="holder">default</string>
+    <string name="home">Home</string>
+    <string name="riana_sianturi">Riana Sianturi</string>
+    <string name="gereja">Gereja</string>
+    <string name="nama_perempuan">Nama Perempuan</string>
+    <string name="nama_jemaat">Nama Jemaat</string>
+    <string name="golongan_darah">Golongan Darah</string>
+    <string name="registrasi_baptis">Registrasi baptis</string>
+    <string name="registrasi_sidi">Registrasi sidi</string>
+    <string name="registrasi_martupol">Registrasi martupol</string>
+    <string name="registrasi_pemberkatan_nikah">Registrasi pemberkatan nikah</string>
+    <string name="registrasi_jemaat_baru">Registrasi jemaat baru</string>
+    <string name="registrasi_pindah_huria">Registrasi pindah huria</string>
+
+    <string name="menu_baptis">Baptis</string>
+    <string name="menu_sidi">Sidi</string>
+    <string name="menu_martumpol">Martumpol</string>
+    <string name="menu_nikah">Pemberkatan Nikah</string>
+    <string name="menu_jemaat_baru">Jemaat Baru</string>
+    <string name="menu_pindah_huria">Pindah Huria</string>
+    <string name="setuju">Setuju</string>
+    <string name="tolak">Tolak</string>
+
+    <string-array name="menu_registrasi">
+        <item>@string/menu_baptis</item>
+        <item>@string/menu_sidi</item>
+        <item>@string/menu_martumpol</item>
+        <item>@string/menu_nikah</item>
+        <item>@string/menu_jemaat_baru</item>
+        <item>@string/menu_pindah_huria</item>
+    </string-array>
+    <string-array name="registrasi_kegiatan">
+        <item>@string/registrasi_baptis</item>
+        <item>@string/registrasi_sidi</item>
+        <item>@string/registrasi_martupol</item>
+        <item>@string/registrasi_pemberkatan_nikah</item>
+        <item>@string/registrasi_jemaat_baru</item>
+        <item>@string/registrasi_pindah_huria</item>
+    </string-array>
+
+    <string name="male">Laki-laki</string>
+    <string name="female">Perempuan</string>
+    <string name="wijk">wijk</string>
+
+    <string-array name="jenisKelamin">
+        <item>@string/male</item>
+        <item>@string/female</item>
+    </string-array>
+
+    <string-array name="itemList">
+        <item>Topik Minggu: Reminiscere</item>
+        <item>Topik Minggu: Reminiscere</item>
+        <item>Topik Minggu: Reminiscere</item>
+        <item>Topik Minggu: Reminiscere</item>
+        <item>Topik Minggu: Reminiscere</item>
+        <item>Topik Minggu: Reminiscere</item>
+        <item>Topik Minggu: Reminiscere</item>
+        <item>Topik Minggu: Reminiscere</item>
+        <item>Topik Minggu: Reminiscere</item>
+        <item>Topik Minggu: Reminiscere</item>
+        <item>Topik Minggu: Reminiscere</item>
+        <item>Topik Minggu: Reminiscere</item>
+        <item>Topik Minggu: Reminiscere</item>
+        <item>Topik Minggu: Reminiscere</item>
+        <item>Topik Minggu: Reminiscere</item>
+    </string-array>
+</resources>

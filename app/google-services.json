@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "502131968737",
+    "project_id": "hkbp-palmarum-d1f09",
+    "storage_bucket": "hkbp-palmarum-d1f09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502131968737:android:28b9578239be3a5d9485a0",
+        "android_client_info": {
+          "package_name": "com.example.hkbptarutung"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaxwBU7ClLp-gsaxs4Aq9OEgkL0ZN8Pqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

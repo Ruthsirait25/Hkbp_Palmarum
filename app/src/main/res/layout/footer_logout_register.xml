@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <View
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/abuabu"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_logout"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <View
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/ic_logout"
+            android:layout_width="60dp"
+            android:layout_height="28dp"
+            android:src="@drawable/icon_logout"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/holder"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"
+            app:layout_constraintTop_toTopOf="@id/ic_home"
+            app:layout_constraintBottom_toBottomOf="@id/ic_home"
+            app:layout_constraintStart_toEndOf="@id/ic_home"
+            style="@style/black32sp"
+            />
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/guidelines"
+        android:layout_height="50dp"
+        android:layout_width="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_register"
+        app:layout_constraintStart_toEndOf="@id/guidelines"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <View
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/iv_icon_settings"
+            android:src="@drawable/icon_user_add"
+            android:layout_width="60dp"
+            android:layout_height="28dp"
+            android:contentDescription="@string/holder"
+            android:layout_marginBottom="8dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/iv_icon_settings"
+            app:layout_constraintTop_toTopOf="@id/iv_icon_settings"
+            app:layout_constraintBottom_toBottomOf="@id/iv_icon_settings"
+            android:text="@string/daftar"
+            style="@style/black32sp"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
